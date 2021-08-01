@@ -48,5 +48,5 @@ class Reporter:
 		Reporter.send_msg("Report: ", Reporter.text)
 
 	@staticmethod
-	def price_change_alert(msg):
-		Reporter.send_msg("Price change: ", msg)
+	def send_email(subject, msg):
+		Reporter.send_msg(subject, msg)
